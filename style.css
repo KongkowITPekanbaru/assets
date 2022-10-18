@@ -13,7 +13,7 @@
 /* Variables */
 :root {
   --sd-brand-black: hsl(348, 9%, 10%); /* #1D1819; */
-  --sd-brand-green: hsl(145, 66%, 51%); /* #30D475; */
+  --sd-brand-red: hsl(358, 79%, 51%); /* #E52129; */
   --sd-brand-white: #fff;
 
   --sd-green: hsl(145, 66%, 43%); /* #26b763 */
@@ -49,7 +49,7 @@
     --sd-foreground-color: var(--sd-gray);
     --sd-background-color: var(--sd-brand-black);
     --sd-logo-color: var(--sd-brand-white);
-    --sd-link-color: var(--sd-brand-green);
+    --sd-link-color: var(--sd-brand-red);
     --sd-small-color: var(--sd-gray);
     --sd-highlight-bg: var(--sd-highlight-bg-dark);
     --sd-highlight-inline-bg: var(--sd-highlight-inline-bg-dark);
@@ -175,9 +175,9 @@ small {
   background-color: var(--sd-brand-white);
 }
 
-.brand-green {
-  background-color: var(--sd-brand-green);
-  color: var(--sd-gray-extradark);
+.brand-red {
+  background-color: var(--sd-brand-red);
+  color: var(--sd-brand-white);
 }
 
 .brand-black {
