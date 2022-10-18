@@ -14,6 +14,7 @@
 :root {
   --sd-brand-black: hsl(348, 9%, 10%); /* #1D1819; */
   --sd-brand-red: hsl(358, 79%, 51%); /* #E52129; */
+  --sd-brand-grey: hsl(0, 100%, 95%); /* #FFE5E5; */
   --sd-brand-white: #fff;
 
   --sd-green: hsl(145, 66%, 43%); /* #26b763 */
@@ -175,6 +176,10 @@ small {
 .palette {
   border-radius: 6px;
   padding: 3px 6px;
+}
+
+.brand-grey {
+  background-color: var(--sd-brand-grey);
 }
 
 .brand-white {
