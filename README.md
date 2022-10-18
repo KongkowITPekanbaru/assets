@@ -31,6 +31,6 @@ for f in *.svg ; do rsvg-convert -f pdf -x 2 -y 2  $f -o $f.pdf ; done && rename
   <img align="right" height="96" alt="CC BY-SA 4.0" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg" />
 </a>
 
-Kongkow IT Pekanabru logo are licensed under the **CC BY-SA 4.0**.
+Kongkow IT Pekanbaru logo are licensed under the **CC BY-SA 4.0**.
 
 The full text of the license can be accessed via [this link](https://creativecommons.org/licenses/by-sa/4.0/) and is also included in the [license](LICENSE) file of this software package.
