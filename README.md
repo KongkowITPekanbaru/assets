@@ -1,10 +1,19 @@
-![Kongkow IT Pekanbaru Logo](assets/page-logo.png)
+<div align="center">
+    <img src="https://assets.kongkowitpku.xyz/assets/svg/kongkow-icon-dark-square.svg" height="70" alt="Logo">
+    <h1>Kongkow IT Pekanbaru</h1>
+    <a href="https://kongkowitpku.xyz">https://kongkowitpku.xyz</a>
+</div>
+<br>
+Static assets repository for Kongkow IT Pekanbaru Project.
 
-# assets.kongkowitpku.xyz
 
-Website with Kongkow IT Pekanbaru brand assets
+## Images 
 
-## Update assets
+```
+/images/*
+```
+
+## Update Assets
 
 If you change the SVG assets, you need to re-render the assets in the PNG and PDF folders to keep them in sync.
 
@@ -13,7 +22,7 @@ _Note: The commands below work on Fedora, but on Debian-based systems you have t
 Navigate to the SVG folder:
 
 ```
-cd assets/svg
+cd images/svg
 ```
 
 Render the PNGs:
